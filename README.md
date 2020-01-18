@@ -3,7 +3,7 @@ Reference to the issue 3828 of doctrine
 
 1. composer update
 
-2. init .env file with your mysql database
+2. init .env file with a empty mysql database (should work with any database)
 
 3. php bin/console doctrine:migration:diff
 
